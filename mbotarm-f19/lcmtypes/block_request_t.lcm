@@ -1,0 +1,6 @@
+struct block_request_t
+{
+    int64_t utime;
+    int8_t new_block;
+    mbot_arm_block_t block;
+}

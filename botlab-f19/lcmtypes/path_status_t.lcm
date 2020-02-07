@@ -1,0 +1,4 @@
+struct path_status_t
+{
+    int8_t completed;
+}

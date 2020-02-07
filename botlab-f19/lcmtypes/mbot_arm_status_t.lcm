@@ -1,0 +1,6 @@
+struct mbot_arm_status_t
+{
+    int64_t utime;
+    int8_t status;
+    mbot_arm_block_t block;
+}

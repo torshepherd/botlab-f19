@@ -1,0 +1,14 @@
+struct mbot_picking_status_t
+{
+    int64_t utime;
+    const int8_t READY_FOR_NEXT = 0;
+    const int8_t DRIVE_TO_POSE = 1;
+    const int8_t PICKING_UP = 2;
+    const int8_t RETURN_HOME = 3;
+    const int8_t PUTTING_DOWN = 4;
+    const int8_t INITIALIZING = 10;
+    const int8_t FAILED = 11;
+    const int8_t COMPLETED = 12;
+
+    int8_t status;
+}
